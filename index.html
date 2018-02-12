@@ -1,17 +1,53 @@
-<html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
     <head>
         <title>IT Security - Home</title>
+        <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="style/style.css">
     </head>
     <body>
-        <nav id="menu">
+        <nav id="desktopMenu">
             <header>
                 <img id="logoImage" src="logo.png" alt="Security Logo"/>
             </header>
-            <h2>Menu</h5>
+            <h2>Menu</h2>
             <a href="google.com">Home</a><br/>
             <a href="google.com">Info</a><br/>
             <a href="google.com">About Us</a><br/>
+        </nav>
+        <!--    Made by Erik Terwan    -->
+        <!--   24th of November 2015   -->
+        <!--    All rights reserved    -->
+        <nav id="mobileMenu">
+          <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul role="navigation" id="menu">
+              <a href="#"><li>Home</li></a>
+              <a href="#"><li>About</li></a>
+              <a href="#"><li>Info</li></a>
+              <a href="#"><li>Contact</li></a>
+              <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+            </ul>
+          </div>
         </nav>
         <main>
             <article id="mainArticle">
