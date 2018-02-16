@@ -1,11 +1,15 @@
 body{
     margin: 0;
     color: white;
-    display: flex;
     background-color: #222222; 
     background-image: url('../back.png');
     background-repeat: repeat;
     min-height: 100vh
+}
+
+#wrapper{
+    display: flex;
+    height: 100vh
 }
 
 a{
@@ -24,14 +28,15 @@ h2{
 footer{
     background-color: black;
     text-align: center;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    padding: 10px;
+    line-height: 40px;
+    margin-top: -40px;
+    height: 40px;
 }
 
 article, aside{
     background-color: #111111;
+    z-index: -1;
 }
 
 header{
