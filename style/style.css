@@ -5,6 +5,7 @@ body{
     background-color: #222222; 
     background-image: url('../back.png');
     background-repeat: repeat;
+    min-height: 100vh
 }
 
 a{
@@ -29,7 +30,7 @@ footer{
     padding: 10px;
 }
 
-article, nav{
+article, aside{
     background-color: #111111;
 }
 
@@ -37,8 +38,7 @@ header{
     width: inherit;
 }
 
-nav{
-    height: 100%;
+aside{
     padding: 10px;
 }
 
@@ -50,12 +50,6 @@ article{
     padding: 30px;
     display: block;
     border-radius: 10px;
-}
-
-aside{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
 }
 
 #desktopMenu{
