@@ -2,7 +2,7 @@ body {
     margin: 0;
     color: white;
     background-color: #222222; 
-    background-image: url('../back.png');
+    background-image: url('img/back.png');
     background-repeat: repeat;
     min-height: 100vh;
     font-size: 1.2em;
@@ -77,11 +77,6 @@ article {
 }
 
 
-#menu a:hover {
+a:hover {
   color: rgba(187, 71, 255, 0.486);
-}
-
-#videoSide{
-    float: right;
-    margin-left: 10pt;
 }
