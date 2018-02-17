@@ -80,3 +80,9 @@ article {
 a:hover {
   color: rgba(187, 71, 255, 0.486);
 }
+
+iframe {
+    width: 500px;
+    height: 300px;
+    float: right;
+}
