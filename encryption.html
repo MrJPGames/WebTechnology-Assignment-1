@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>IT Security - Home</title>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="TODO">
+        <meta name="keywords" content="security, SQL injection, XSS, cross-site scripting, security statistics, 
+                                       encryption, history security, importance security, RSA, DDOS, 
+                                       DDOS-attacks, exploits, hacking, encryption key">
+        <meta name="author" content="Jasper, Maarten">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <aside>
+                <header>
+                    <img id="logo" src="logo.svg" alt="Security Logo">
+                    <h1>Menu</h1>
+                </header>
+                <nav id="menu">
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="general.html">General information</a></p>
+                    <p><a href="history.html">History</a></p>
+                    <p><a href="importance.html">Importance</a></p>
+                    <p><a href="economics.html">Economics</a></p>
+                    <p><a href="encryption.html">Encryption</a></p>
+                </nav>
+            </aside>
+            <main>
+                <article id="mainArticle">
+                    <h1>Encryption</h1>
+                    <selction>
+                        <p>
+                            Encryption ensures that one party can safely communicate a message or piece of data from one system to another.
+                            We often see this explained as stoping people from interfere in this communication.
+                            However this is not entirely accurate.
+                            As encryption itself does not stop any third party from seeing the encrypted data.
+                            What encryption does achieve however is that this third party is unable to view the actual data.
+                            And it also protects against any third party sending data pretending to be someone they are not.
+                            In this way though a third party can still interfere with the communications, because these are unintelligable for them it is has the same result as if they were unable to interfere.
+                        </p>
+                    </selction>
+                    <section>
+                        <h3>Different forms of encryption:</h3>
+                        <p>
+                            There are a ton of different encryption algorithms.
+                            Some of them have become depricated because they have been broken.
+                            But even the currently used list of algorithms used for encryption is very extensive.
+                            For this reason we are only going to go into the biggest categories of encryption algorithms.
+                            Detail the basic way in which they work and detail what their primary use is.
+                        </p>
+                        <section>
+                            <h4>End-to-End encryption:</h4>
+                            <iframe id="videoSide" width="560" height="315" src="https://www.youtube.com/embed/jkV1KEJGKRA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <p>
+                                End-to-end encryption also refered to E2EE is an encryption system where the decryption of the encrypted data can only happen on the target system.
+                                E2EE is widely used in messaging apps for this very reason.
+                                Because only the target system can decrypt the message even though the message has to go through the servers of the messaging app provider they are unable to decrypt your message.
+                                This makes the communication very secure agains hackers because even if they are able to compromise the servers of the apps developer they can still not read out or modify what is being sent.
+                                However it also means that goverment agencies cannot read this data.
+                                Most people prefer it this way and in the grand scheme of things encryption should not be banned for this reason as it is important that people cannot just be spied on by authorities.
+                                However the downside of this is that criminals are also able to use E2EE and with this are able to communicate with one another without the authorities being able to intercept their communications.
+                            </p>
+                            <p>
+                                For more info you can check out the video by <a href="https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA" target="_blank">Computerphile</a> on the right.<sup><a href="#cite1">[1]</a></sup>
+                            </p>
+                        </section>
+                        <section>
+                            <h4></h4>
+                        </section>
+                    </section>
+                    <section>
+                        <h2>References</h2>
+                        <ol>
+                            <li id="cite1"><a rel="nofollow" href="https://www.youtube.com/watch?v=jkV1KEJGKRA" target="_blank">End to End Encryption (E2EE) - Computerphile</a></li>
+                        </ol>
+                    </section>   
+                 </article>
+            </main>
+        </div>
+        <footer>
+            <p>&copy; 2018 Maarten & Jasper</p>
+        </footer>
+    </body>
+</html>
