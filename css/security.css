@@ -85,4 +85,5 @@ iframe {
     width: 500px;
     height: 300px;
     float: right;
+    border: none;
 }
