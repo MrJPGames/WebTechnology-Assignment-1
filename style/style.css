@@ -46,20 +46,22 @@ article, aside {
 }
 
 aside {
-    padding: 1%;
+    padding: 10px;
     position: fixed;
     height: 100%;
+    width: 170px;
 }
 
 main {
     width: 100%;
     margin-bottom: 50px;
     font-size: 1.2em;
-    margin-left: 10%;
+    margin-left: 190px;
 }
 
 article {
     padding: 30px;
+    margin: 20px;
     border-radius: 10px;
 }
 
@@ -69,7 +71,6 @@ article {
 
 #logo {
     margin-left: 5%;
-    margin-right: auto;
     width: 90%;
 }
 
