@@ -5,6 +5,7 @@ body {
     background-image: url('../back.png');
     background-repeat: repeat;
     min-height: 100vh;
+    font-size: 1.2em;
 }
 
 #wrapper {
@@ -20,6 +21,7 @@ a {
 h1 {
     font-size: 2em;
     margin-top: 0;
+    text-align: center;
 }
 
 h2 {
@@ -38,6 +40,7 @@ footer {
     line-height: 45px;
     margin-top: -61px;
     height: 45px;
+    font-size: 0.8em;
 }
 
 article, aside {
@@ -55,7 +58,6 @@ aside {
 main {
     width: 100%;
     margin-bottom: 50px;
-    font-size: 1.2em;
     margin-left: 190px;
 }
 
