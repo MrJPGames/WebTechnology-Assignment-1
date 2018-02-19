@@ -76,7 +76,11 @@ article {
     width: 90%;
 }
 
-
 a:hover {
   color: rgba(187, 71, 255, 0.486);
+}
+
+#videoSide{
+    float: right;
+    margin-left: 10pt;
 }
