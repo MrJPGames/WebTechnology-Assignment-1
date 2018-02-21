@@ -17,7 +17,7 @@
         <div id="wrapper">
             <aside>
                 <header>
-                    <img id="logo" src="../logo.svg" alt="Security Logo">
+                    <img id="logo" src="../img/logo.svg" alt="Security Logo">
                     <h1>Menu</h1>
                 </header>
                 <nav id="menu">
@@ -32,15 +32,15 @@
             <main>
                 <article id="mainArticle">
                     <h1 id="articleTitle">Importance</h1>
-                    <iframe id="videoSide" width="560" height="315" src="https://www.youtube.com/embed/7L9JerWIT3Y?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe class="youTubeVideo floatRight" src="https://www.youtube.com/embed/7L9JerWIT3Y?rel=0" allowfullscreen></iframe>
                     <p>Cybersecurity is needed to protect three key parts:
                         <ul>
-                            <li>Secrecy</li>
-                            <li>Integrity</li>
-                            <li>Availability of computer systems</li>
+                            <li><a href="#secrecy">Secrecy</a></li>
+                            <li><a href="#integrity">Integrity</a></li>
+                            <li><a href="#availability">Availability of computer systems</a></li>
                         </ul>
                     </p>
-                    <section>
+                    <section id="secrecy">
                         <h3>Secrecy:</h3>
                         <p>
                             Secrecy sometimes also know as confidentiality means that only people with the right permissions should be able to access certain data or computer systems.
@@ -48,10 +48,10 @@
                         </p>
                         <p>
                             For example when connected to a network only the specefic computer system you are sending your login credentials to should be able to read this data. However this is complicated due to the fact that many parts of the communication are also readable by other machines on the network.
-                            To solve this any secure login system uses <a href="">encryption</a> for sending credentials over a network. This ensures that only the intended target machine can actually know what is being send. Encryption is not just used to protect login systems however. Many secure systems use encryption to protect their data from attackers.
+                            To solve this any secure login system uses <a href="encryption.html">encryption</a> for sending credentials over a network. This ensures that only the intended target machine can actually know what is being send. Encryption is not just used to protect login systems however. Many secure systems use encryption to protect their data from attackers.
                         </p>
                     </section>
-                    <section>
+                    <section id="integrity">
                         <h3>Integrity:</h3>
                         <p>
                             Secrecy is just protection of who can or at least who should be able to read certain data.
@@ -70,7 +70,7 @@
                             When a user system is in place the webshop in this example can have only certain users have the permission to edit the data.
                         </p>
                     </section>
-                    <section>
+                    <section id="availability">
                         <h3>Availability of computer systems:</h3>
                         <p>
                             A important part of security we often times forget is availability. 
@@ -92,7 +92,14 @@
                             When you are for instance using a service to backup your personal data including photos.
                             If this data gets removed this might not be an economic loss but is certainly a big loss!
                         </p>
-                    </section>    
+                    </section>
+                    <section>
+                            <h2>Sources</h2>
+                            <ol>
+                                <li id="source1"><a class="externalLink" rel="nofollow" href="https://www.youtube.com/watch?v=bPVaOlJ6ln0" target="_blank">Cybersecurity: Crash Course Computer Science #31</a></li>
+                                <li id="source2"><a class="externalLink" rel="nofollow" href="https://www.youtube.com/watch?v=7L9JerWIT3Y" target="_blank">Why is Information Security important?</a></li>
+                            </ol>
+                        </section> 
                 </article>
             </main>
         </div>
