@@ -124,3 +124,9 @@ section ol{
 #publicKeyImage{
     height: 300pt;
 }
+
+/* For page Economics */
+#economicsImage {
+    width: 500px;
+    height: 500px;
+}
