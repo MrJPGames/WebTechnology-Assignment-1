@@ -152,3 +152,8 @@ caption {
     font-style: italic;
     color: rgb(226, 166, 35);
 }
+
+/* For page: economics */
+#statistics{
+    min-height: 500px;
+}
