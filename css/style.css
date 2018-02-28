@@ -141,7 +141,7 @@ td, th {
     padding: 15px;
 }
 
-tr:nth-child(even), tfoot {
+tr:nth-child(even) {
     background-color: rgb(226, 166, 35);
 }
 
@@ -153,7 +153,7 @@ caption {
     color: rgb(226, 166, 35);
 }
 
-/* For page: economics */
+/* For page: Economics */
 #statistics{
     min-height: 500px;
 }
