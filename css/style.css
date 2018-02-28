@@ -21,10 +21,12 @@ body {
 
 a {
     color: darkgoldenrod;
+    text-decoration: none;
 }
 
 a:hover {
     color: rgb(114, 84, 7);
+    text-decoration: underline;
 }
 
 .externalLink {
